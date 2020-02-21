@@ -18,6 +18,8 @@
 		5BDEC02F23FFE81900C0FFB5 /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDEC02E23FFE81900C0FFB5 /* AlertView.swift */; };
 		5BDEC03123FFE88D00C0FFB5 /* ModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDEC03023FFE88D00C0FFB5 /* ModalView.swift */; };
 		5BDEC03323FFE94E00C0FFB5 /* PopoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDEC03223FFE94E00C0FFB5 /* PopoverView.swift */; };
+		5BDEC03723FFF1B700C0FFB5 /* ButtonStyle_FilledButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDEC03623FFF1B700C0FFB5 /* ButtonStyle_FilledButton.swift */; };
+		5BDEC03923FFF30600C0FFB5 /* PickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDEC03823FFF30600C0FFB5 /* PickerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +48,8 @@
 		5BDEC02E23FFE81900C0FFB5 /* AlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
 		5BDEC03023FFE88D00C0FFB5 /* ModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalView.swift; sourceTree = "<group>"; };
 		5BDEC03223FFE94E00C0FFB5 /* PopoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopoverView.swift; sourceTree = "<group>"; };
+		5BDEC03623FFF1B700C0FFB5 /* ButtonStyle_FilledButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyle_FilledButton.swift; sourceTree = "<group>"; };
+		5BDEC03823FFF30600C0FFB5 /* PickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +135,8 @@
 				5BDEC02E23FFE81900C0FFB5 /* AlertView.swift */,
 				5BDEC03023FFE88D00C0FFB5 /* ModalView.swift */,
 				5BDEC03223FFE94E00C0FFB5 /* PopoverView.swift */,
+				5BDEC03823FFF30600C0FFB5 /* PickerView.swift */,
+				5BDEC03623FFF1B700C0FFB5 /* ButtonStyle_FilledButton.swift */,
 			);
 			path = Samples;
 			sourceTree = "<group>";
@@ -237,6 +243,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5BDEC03323FFE94E00C0FFB5 /* PopoverView.swift in Sources */,
+				5BDEC03723FFF1B700C0FFB5 /* ButtonStyle_FilledButton.swift in Sources */,
+				5BDEC03923FFF30600C0FFB5 /* PickerView.swift in Sources */,
 				5BDEC03123FFE88D00C0FFB5 /* ModalView.swift in Sources */,
 				5BDEC02F23FFE81900C0FFB5 /* AlertView.swift in Sources */,
 				5BDEC00923FFC52900C0FFB5 /* AppDelegate.swift in Sources */,

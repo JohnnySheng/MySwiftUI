@@ -21,7 +21,7 @@ struct ContentView: View {
                }
             
             Button("Button 1") {}
-            .buttonStyle(FilledButton())
+            .buttonStyle(ButtonStyle_FilledButton())
             
             ActionSheetView()
            }
@@ -42,16 +42,6 @@ struct Details: View {
     }
 }
 
-struct FilledButton: ButtonStyle {
-    func makeBody(configuration: Configuration) -> some View {
-        configuration
-            .label
-            .foregroundColor(configuration.isPressed ? .gray : .white)
-            .padding()
-            .background(Color.accentColor)
-            .cornerRadius(8)
-    }
-}
 
 
 struct ContentView_Previews: PreviewProvider {
